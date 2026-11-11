@@ -1,1 +1,1 @@
-![키오스크 화면](분식 키오스크/kiosk.png)
+![키오스크 화면](Kiosk/kiosk.png)
