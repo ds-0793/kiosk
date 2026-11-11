@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    background-color: green;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    position: absolute;
+    display: flex;
+    gap: 50px;
+    top: 5%;
+}
+
+.left, .right{
+    width: 400px;
+    height: 500px;
+    border: 2px solid black;
+    background-color: white;
+}
+
+.low{
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 700px;
+    height: 100px;
+}
+
+.left img, .right img{
+    width: 100%;
+    height: 72%;
+    object-fit: cover;
+}
+
+.left, .right p{
+    font-size: 45px;
+    font-weight: bold;
+    color: red;
+}
+
+
+.low p{
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.korean, .english{
+    position: fixed;
+    bottom: 60px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.korean{
+    left: 38%;
+}
+
+.english{
+    left: 53%;
+}
+
+.korean button, .english button {
+    width: 150px;
+    height: 60px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
